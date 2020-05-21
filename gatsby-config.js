@@ -73,7 +73,6 @@ module.exports = {
       resolve: 'gatsby-plugin-styled-components',
       options: {},
     },
-    'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-netlify',
