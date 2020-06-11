@@ -58,15 +58,11 @@ export const Welcome = () => {
     <BlobSection fluid blob={Blob}>
       <WelcomeTextContainer>
         <h2>
-          We use innovative technology to bring your vision, brand, and identity
-          to life.
+          We transform your business into digital world
         </h2>
         <BreakoutSection>
           <p>
-            We are graphic artists and designers, expert coders, and published
-            writers. Caldera is your one-stop-shop. We take pride in working
-            with the best and latest technology out there - and in turn, bring
-            only the best to your business.
+            We are a software solution provider’s work towards digital transformation for SMEs. We also provide independent business process reengineering, consultancies, advice, training and support services
           </p>
         </BreakoutSection>
       </WelcomeTextContainer>
