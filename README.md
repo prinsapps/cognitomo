@@ -1,0 +1,2 @@
+# cognitomo
+gatsby develop
