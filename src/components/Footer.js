@@ -219,7 +219,7 @@ const FooterCTA = styled.div`
 
 const Copyright = () => (
   <CopyrightContainer>
-    Caldera LLC © {new Date().getFullYear()}
+    Cognitomo © {new Date().getFullYear()}
   </CopyrightContainer>
 )
 
@@ -238,7 +238,6 @@ export const Footer = ({ showFooterCTA = true }) => {
             Our team is always looking for new and exciting products to be a
             part of! Interested in learning how we can help?
           </p>
-
           <span>Let's get started.</span>
           <LinkButton to="/contact-us">Contact Us</LinkButton>
         </FooterCTA>
@@ -246,24 +245,24 @@ export const Footer = ({ showFooterCTA = true }) => {
 
       <StyledFooterWrapper>
         <StyledFooter>
-          <LogoContainer>
+          {/* <LogoContainer>
             <Logo />
-          </LogoContainer>
-          <LinksContainer>
+          </LogoContainer> */}
+          {/* <LinksContainer>
             {createRoutes().map(({ route, text }) => (
               <Link to={route} key={route}>
                 {text}
               </Link>
             ))}
-          </LinksContainer>
-          <BlogsContainer>
+          </LinksContainer> */}
+          {/* <BlogsContainer>
             {edges.map(({ node: blog }) => (
               <Link to={blog.slug} key={blog.slug}>
                 {blog.title}
               </Link>
             ))}
-          </BlogsContainer>
-          <EmailContainer>
+          </BlogsContainer> */}
+          {/* <EmailContainer>
             <p>Subscribe to our Newsletter!</p>
             <form
               onSubmit={async e => {
@@ -288,7 +287,7 @@ export const Footer = ({ showFooterCTA = true }) => {
                 </span>
               )}
             </form>
-          </EmailContainer>
+          </EmailContainer> */}
         </StyledFooter>
         <Copyright />
       </StyledFooterWrapper>

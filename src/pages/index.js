@@ -95,7 +95,6 @@ const HomePage = ({ location }) => {
       <Welcome />
       <OurServices />
       <OurWork />
-      <LatestFromOurBlog />
       <CallToAction />
     </Layout>
   )

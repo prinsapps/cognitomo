@@ -4,9 +4,10 @@ import styled from 'styled-components'
 import { media } from '@caldera-digital/theme'
 import Carousel from '@brainhubeu/react-carousel'
 
-import Analytics from '../../assets/svgs/analytics.svg'
-import Apps from '../../assets/svgs/apps.svg'
-import Web from '../../assets/svgs/web.svg'
+import Training from '../../assets/svgs/analytics.svg'
+import Consultancy from '../../assets/svgs/apps.svg'
+import Software_Solutions from '../../assets/svgs/web.svg'
+import Intelligent_Systems_Solution from '../../assets/svgs/web.svg'
 
 import '@brainhubeu/react-carousel/lib/style.css'
 
@@ -104,49 +105,47 @@ export const OurServices = () => {
               slidesPerPage: 1,
             },
           }}
+          
         >
+          
           <CarouselItem>
-            <Apps />
+            <Training />
             <div>
-              <h3>Mobile Applications</h3>
+              <h3>Training</h3>
               <p>
-                A mobile app's success and technical aspects lie in the answers
-                to these three initial questions: Who will it serve? What will
-                it be? And what will it do? With our human-centric and high-tech
-                approach to application development, we ensure that what we
-                build is more than just code. Our apps progress with
-                technological innovation - which means they will never be
-                out-of-date.
+              We will assist you in developing, improving, and transforming your internal skill sets with our expert consultancy and comprehensive range of practical courses such as Business Analysis, Programming, AI Solutions, Data Science, and analytics. These courses cater to Practitioners, Digital Leaders, and Business Frontiers. The pieces of training based on our client’s request, either classroom-based training or cooperative request training.
               </p>
             </div>
           </CarouselItem>
           <CarouselItem>
-            <Analytics />
+            <Consultancy />
             <div>
-              <h3>Automation</h3>
+              <h3>Consultancy</h3>
               <p>
-                If it can be repeated, it can be automated. We employ a variety
-                of techniques to make repetitive tasks easy as pressing a
-                button. Whether it be creating a spreadsheet plugin or pulling
-                data to showcase on a real time dashboard, we have you covered.
+              When you require independent advice or business solutions for your in-house issues, we can provide advanced solutions. We have experts to deliver integrated advanced solutions and AI/ML techniques to provide strategic advice and upskilling software solutions.   We help companies establish a data-driven culture that opens the door to digital economies with world-class capabilities and elevates business performance.
               </p>
             </div>
           </CarouselItem>
           <CarouselItem>
-            <Web />
+            <Software_Solutions />
             <div>
-              <h3>Web Applications</h3>
+              <h3>Software Solutions</h3>
               <p>
-                We will help your business stand out with our innovative
-                designs, responsive web pages, and phenomenal user experience.
-                Technology is constantly improving, and your site will too with
-                progressive updates and eye-catching graphic design. Your
-                business is the masterpiece of your mind - and we are the team
-                to bring it to life.
+              We deliver state of the art industry standards and quality-driven software solutions. We help you with your needs in Web, Cloud or Mobile based solutions. We believe in the win-win theory, meaning, if you win in your business, then we will be successful in our business. Therefore, we always focus on your core business process and strengthen the process before proofing software solutions. Our substantial domain experience, technical expertise, and profound knowledge help us to provide quality solutions to fulfil your business requirements.
+              </p>
+            </div>
+          </CarouselItem>
+          <CarouselItem>
+            <Intelligent_Systems_Solution />
+            <div>
+              <h3>Intelligent Systems Solution</h3>
+              <p>
+              Our Intelligence System Solution team is specialists in AL/ML best practices, data science modelling, deep learning, computer vision, natural language processing, and more. We use these skills to provide intelligent systems solutions for our clients to leverage all of the potential AI/ML systems have to offer. We help you to transfer your ideas into tangible smart solutions through technical competence and implementation.
               </p>
             </div>
           </CarouselItem>
         </Carousel>
+        
       )}
     />
   )
