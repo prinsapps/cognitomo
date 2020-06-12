@@ -93,7 +93,6 @@ const HomePage = ({ location }) => {
         blobs={[]}
       />
       <Welcome />
-     <WhoWeveWorkedWith />
       <OurServices />
       <OurWork />
       <LatestFromOurBlog />
@@ -103,4 +102,3 @@ const HomePage = ({ location }) => {
 }
 
 export default HomePage
-//test

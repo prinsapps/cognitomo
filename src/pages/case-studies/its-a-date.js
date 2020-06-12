@@ -37,7 +37,7 @@ const CaseStudy = () => {
         <Section.H2>It's a Date</Section.H2>
         <Section.Image
           src={createOptimizedCloudinary(
-            'https://res.cloudinary.com/calderablog/image/upload/v1565065682/its-a-date-intro-mockup3_2x_prmqqs.png',
+            'https://res.cloudinary.com/prinsapps/image/upload/v1591923799/cognitomo/portfolio1_gujpqp.png',
             'w_350,c_fit',
           )}
           alt="Welcome screen for Its a Date"
