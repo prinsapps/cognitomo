@@ -19,7 +19,7 @@ const CaseStudy = () => {
         companyWebsite="https://www.itsadate.app/"
         heroImgConfig={{
           src: createOptimizedCloudinary(
-            'https://res.cloudinary.com/calderablog/image/upload/v1565064161/Group_637_2x_scvnjg.png',
+            'https://res.cloudinary.com/prinsapps/image/upload/v1591923799/cognitomo/portfolio1_gujpqp.png',
           ),
           alt: 'Phone showcasing Its a Date',
         }}
@@ -37,7 +37,7 @@ const CaseStudy = () => {
         <Section.H2>It's a Date</Section.H2>
         <Section.Image
           src={createOptimizedCloudinary(
-            'https://res.cloudinary.com/prinsapps/image/upload/v1591923799/cognitomo/portfolio1_gujpqp.png',
+            'https://res.cloudinary.com/prinsapps/image/upload/v1591927582/cognitomo/desktop_o7jp6t.png',
             'w_350,c_fit',
           )}
           alt="Welcome screen for Its a Date"
@@ -91,7 +91,7 @@ const CaseStudy = () => {
             <Section.Column>
               <Section.Image
                 src={createOptimizedCloudinary(
-                  'https://res.cloudinary.com/calderablog/image/upload/v1565064176/Image_53_2x_yzlmxs.png',
+                  'https://res.cloudinary.com/prinsapps/image/upload/v1591930848/cognitomo/s_qyiniw.png',
                 )}
                 alt="Collage of Its a Date screens"
                 responsive
@@ -156,7 +156,7 @@ const CaseStudy = () => {
       <Section lightBackground>
         <Section.Image
           src={createOptimizedCloudinary(
-            'https://res.cloudinary.com/calderablog/image/upload/v1565063779/its-a-date-website_tvptp8.jpg',
+            'https://res.cloudinary.com/prinsapps/image/upload/v1591931198/cognitomo/landing_s6cq8g.jpg',
           )}
           alt="It's a Date landing page"
           responsive
@@ -184,7 +184,7 @@ const CaseStudy = () => {
       <Section>
         <Section.Image
           src={createOptimizedCloudinary(
-            'https://res.cloudinary.com/calderablog/image/upload/v1565063763/its-a-date-admin_hg7y5q.jpg',
+            'https://res.cloudinary.com/prinsapps/image/upload/v1591931378/cognitomo/admin-portal_ruzram.jpg',
           )}
           alt="It's a Date admin portal"
           responsive

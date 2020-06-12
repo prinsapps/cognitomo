@@ -6,29 +6,29 @@ import { media } from '@caldera-digital/theme'
 import CAMLogo from '../../assets/rawSvgs/clients/cam-logo.svg'
 import POTMLogo from '../../assets/rawSvgs/clients/potm-logo.svg'
 import TenOaksLogo from '../../assets/rawSvgs/clients/ten-oaks-logo.svg'
-import ItsADateLogo from '../../assets/images/its-a-date-logo.png'
+import SmartEduLogo from '../../assets/images/smart-edu-logo.png'
+
 
 const CLIENTS = [
   {
     name: 'Ten Oaks Flooring',
-    to: 'https://www.tenoaksflooring.com/',
+    to: 'https://cognitomo.com/',
     image: TenOaksLogo,
   },
   {
     name: 'CAM',
-    to: 'https://www.camaerospace.com/',
+    to: 'https://cognitomo.com/',
     image: CAMLogo,
   },
   {
     name: 'Pride of the Meadows',
-    to: 'https://www.prideofthemeadows.com/',
+    to: 'https://cognitomo.com/',
     image: POTMLogo,
   },
   {
-    // eslint-disable-next-line quotes
-    name: "It's a Date",
-    to: 'https://www.itsadate.app/',
-    image: ItsADateLogo,
+    name: "Live Learning Experience",
+    to: 'https://cognitomo.com/',
+    image: SmartEduLogo,
   },
 ]
 
