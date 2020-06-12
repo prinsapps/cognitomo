@@ -4,10 +4,10 @@ import styled from 'styled-components'
 import { media } from '@caldera-digital/theme'
 import Carousel from '@brainhubeu/react-carousel'
 
-import Training from '../../assets/svgs/analytics.svg'
-import Consultancy from '../../assets/svgs/apps.svg'
-import Software_Solutions from '../../assets/svgs/web.svg'
-import Intelligent_Systems_Solution from '../../assets/svgs/web.svg'
+import Training from '../../assets/svgs/web.svg'
+import Consultancy from '../../assets/svgs/consult.svg'
+import Software_Solutions from '../../assets/svgs/soft_solution.svg'
+import Intelligent_Systems_Solution from '../../assets/svgs/ai.svg'
 
 import '@brainhubeu/react-carousel/lib/style.css'
 

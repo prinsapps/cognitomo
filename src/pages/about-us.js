@@ -64,17 +64,17 @@ const OurProcess = ({ location }) => {
       <SEO title="Join our Process" />
       <Hero
         secondary
-        title="We Tackle Big Problems"
+        title="We Are"
         secondaryText={() => (
           <span>
-            We look at every project as an explosion of ideas- we move fast, we
-            break things down, and the final product is something great that
-            works <b>right</b>.
+            a software solution provider’s work towards digital transformation for SMEs. We also
+provide independent business process reengineering, consultancies, advice, training and support
+services.
           </span>
         )}
         heroImgConfig={{
           src: createOptimizedCloudinary(
-            'https://res.cloudinary.com/calderablog/image/upload/v1565065226/Image_45_2x_aoybmp.png',
+            'https://res.cloudinary.com/prinsapps/image/upload/v1591969570/cognitomo/ai_cq3a7k.png',
           ),
           alt: 'Gamebyrd proof of concept',
         }}
@@ -91,7 +91,7 @@ const OurProcess = ({ location }) => {
         </p>
         <Section.Image
           src={createOptimizedCloudinary(
-            'https://res.cloudinary.com/calderablog/image/upload/v1565065682/its-a-date-intro-mockup3_2x_prmqqs.png',
+            'https://res.cloudinary.com/prinsapps/image/upload/v1591927582/cognitomo/desktop_o7jp6t.png',
             'w_350,c_fit',
           )}
           alt="Welcome screen for Its a Date"
@@ -165,9 +165,9 @@ const OurProcess = ({ location }) => {
         <FinalProductSection>
           <ProcessImage2
             src={createOptimizedCloudinary(
-              'https://res.cloudinary.com/calderablog/image/upload/v1565065481/pride-of-the-meadows-mockup3_2x_vtu3do.png',
+              'https://res.cloudinary.com/prinsapps/image/upload/v1591969715/cognitomo/logo_ln7dda.png',
             )}
-            alt="Pride of the Meadows mockup"
+            alt="Pride of Smart edu"
           />
           <div>
             <Section.H2>A final product – for now</Section.H2>

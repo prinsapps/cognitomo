@@ -166,37 +166,7 @@ const JoinOurTeam = ({ location }) => {
           want to hear from you.
         </p>
 
-        <Section.H2>Mentorship Program</Section.H2>
-        <p>
-          Calling all college students, recent graduates, or people looking for
-          a career change! Our mentorship program gives you the chance to work
-          as a contractor and try your hand in the freelance landscape. There is
-          no job description for this role because it is dependent on YOU and
-          what YOU want to learn. This is a paid, 100% remote opportunity with
-          flexible hours - which we think is pretty sweet.
-        </p>
-        <p>
-          To apply, send us an idea of how you think we can improve Caldera. For
-          example…
-        </p>
-
-        <Section.UnorderedList>
-          <Section.ListItem>
-            Improving the code of this website (it’s{' '}
-            <a href="https://github.com/caldera-digital/platform">
-              open-source
-            </a>
-            )
-          </Section.ListItem>
-          <Section.ListItem>
-            Rewriting a social media post to foster higher engagement
-          </Section.ListItem>
-          <Section.ListItem>
-            Sharing an interesting article/case study and your ideas on how you
-            would implement it for a client
-          </Section.ListItem>
-          <Section.ListItem>Writing a post for our blog</Section.ListItem>
-        </Section.UnorderedList>
+        
 
         <em>
           (Want to do something that will take a lot of time and is outside of
@@ -206,7 +176,7 @@ const JoinOurTeam = ({ location }) => {
       </Section>
       <Section>
         <PowerText>
-          Or if you think your resume or website is{' '}
+          if you think your resume or website is{' '}
           <span role="img" aria-label="fire">
             🔥
           </span>

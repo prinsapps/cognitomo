@@ -9,19 +9,19 @@ const COMPANY_COLOR = '#FAC4A8'
 const CaseStudy = () => {
   return (
     <Layout>
-      <SEO title="Rapid Prototyping and Iterative Design | It's a Date" />
+      <SEO title="Make your student's life easier. | Smart edu" />
       <Hero
         caseStudy
-        title="Rapid Prototyping and Iterative Design"
-        companyName="It's a Date"
+        title="Make your student's life easier"
+        companyName="Smart edu"
         companyColor={COMPANY_COLOR}
         mediumHeroImage
-        companyWebsite="https://www.itsadate.app/"
+        companyWebsite="https://cognitomo.com/"
         heroImgConfig={{
           src: createOptimizedCloudinary(
             'https://res.cloudinary.com/prinsapps/image/upload/v1591923799/cognitomo/portfolio1_gujpqp.png',
           ),
-          alt: 'Phone showcasing Its a Date',
+          alt: 'Make your students life easier',
         }}
         blobs={[
           { blob: Blob1, position: 'topRight', size: 'medium' },
@@ -34,7 +34,7 @@ const CaseStudy = () => {
         ]}
       />
       <Section smallPadding>
-        <Section.H2>It's a Date</Section.H2>
+        <Section.H2>Smart edu</Section.H2>
         <Section.Image
           src={createOptimizedCloudinary(
             'https://res.cloudinary.com/prinsapps/image/upload/v1591927582/cognitomo/desktop_o7jp6t.png',
@@ -46,10 +46,10 @@ const CaseStudy = () => {
           zoomable
         />
         <p>
-          Online dating is flooded with mobile apps that focus on throwing
-          potential matches into "Yes" and "No" bins. It is impersonal and
-          prevents users from interacting with people they might have found
-          real, romantic connections with given just a little bit more time.
+        Our platform combines 2 different “online” teaching tools to create an integrated classroom.
+        Lessons are scheduled using the LiveSchool LMS (based on Moodle) which holds all of the resources
+         and homework activities for the lesson and linked to the LiveSchool video sessions where 
+         learners can interact with the teacher and complete their learning.
         </p>
         <p>
           Many of the popular dating apps attract people with decidedly
@@ -63,10 +63,7 @@ const CaseStudy = () => {
       </Section>
       <Section lightBackground smallPadding>
         <Section.BoldText>
-          Introducing It's a Date. It's a Date encourages human connections
-          through shared experiences. We thoughtfully curate dates to make users
-          excited not only for the person they are meeting, but also the overall
-          experience they are agreeing to be a part of.
+          Introducing with Zoom
         </Section.BoldText>
       </Section>
       <Section smallPadding>
@@ -91,7 +88,7 @@ const CaseStudy = () => {
             <Section.Column>
               <Section.Image
                 src={createOptimizedCloudinary(
-                  'https://res.cloudinary.com/prinsapps/image/upload/v1591930848/cognitomo/s_qyiniw.png',
+                  'https://res.cloudinary.com/prinsapps/image/upload/v1591968436/cognitomo/congrea_nmp0yb.png',
                 )}
                 alt="Collage of Its a Date screens"
                 responsive
@@ -106,37 +103,30 @@ const CaseStudy = () => {
               fluidGuard
               style={{ paddingTop: '3rem', paddingBottom: '3rem' }}
             >
-              <Section.H2>Development</Section.H2>
+              <Section.H2>Features</Section.H2>
               <p>
-                <b>Frontend:</b> React Native with Expo and Styled Components.
-                We loved using this stack for mobile apps because it gave us the
-                ability to get started creating quickly and did not create
-                guardrails for the design team. They were able to create the
-                exact experience people were asking for without worrying about
-                views not being technically feasible or taking an unrealistic
-                amount of time. Styled components felt right at home in React
-                Native, allowing us to compose complex themes with custom React
-                components in perfect harmony.
+                <b>Live Video Sessions:</b> Live classes and group discussions allow all learners to access subject specialist tutors.
               </p>
               <p>
-                <b>Backend:</b> Node, Express, Typescript, Firebase Cloud
-                Firestore, and Google Cloud Platform. There is not a backend
-                stack out there that allows you to create real-time applications
-                faster. We created our messaging feature in one day! However,
-                that speed came at the cost of in-depth domain expertise to the
-                interworkings of Firebase and the Google Cloud Platform. The
-                flexibility you take for granted in more traditional
-                environments like scheduling, backups, integration testing, and
-                other operations took a bit more effort to implement.
+                <b>Clear Full Duplex Audio:</b> Integrated Audio systems within LiveSchool allows learners and teacher to interact even when using lower bandwidths (slow internet connection).
               </p>
               <p>
-                <b>Dev ops:</b> We created three environments: Development,
-                Staging, and Production. Development served as a playground for
-                new features and allowed our development team to try certain
-                features on phones before letting our design and functional team
-                touch it in staging. Once features from Staging were tested and
-                verified, we could deploy from our continuous integration to
-                production.
+                <b>Text Chat & Session Notes:</b> Instant messaging / text chat is integrated into LiveSchool for communication between learners and teachers along with the audio.
+              </p>
+              <p>
+                <b>Shared Interactive Whiteboards:</b> Within LiveSchool, multiple shared whiteboards allows teachers (and learners) to type text, launch images and slides.
+              </p>
+              <p>
+                <b>Share PowerPoint, Files & Images:</b> LiveSchool teachers can share PowerPoint, PDF, DOC, XLS, TXT and other common document types. Use markup and annotation over slides and pages. Launch files and broadcast images synchronously, just like in a physical classroom.
+              </p>
+              <p>
+                <b>Screen Sharing & Remote Control:</b> Teachers can pass control of the whiteboard to an individual learner, which enhances learning allowing teachers to ask learners to complete activities in front of the whole class.
+              </p>
+              <p>
+                <b>Group Rooms for Individual Collaboration:</b> LiveSchool allows learners to all join the same classroom. However, there are times when a teacher needs to work with a learner 1 to 1 or in smaller groups. LiveSchool Group Rooms enable teachers to split the class into smaller groups so that your students collaborate and practice individually.
+              </p>
+              <p>
+                <b>Session Recording and Playback:</b> All sessions are recorded for both quality control and revision. LiveSchool continually monitor lessons, all of which are available to learners to revisit at anytime.
               </p>
             </Section.Column>
           )
@@ -145,12 +135,7 @@ const CaseStudy = () => {
       <Section>
         <Section.H2>The Landing Page</Section.H2>
         <p>
-          With app development nearly complete and users asking about app, we
-          created a landing page to generate hype around the product. The emails
-          we captured were leveraged for user testing events and beta testing
-          the app in its current state. With more feedback under our belt, we
-          launched a blog and CMS for team members to write about cool events
-          happening in the DC area.
+          No matter where you are. The space is always on your device. fully responsive design. 
         </p>
       </Section>
       <Section lightBackground>
@@ -166,17 +151,12 @@ const CaseStudy = () => {
       <Section>
         <Section.H2>Administrative Portal</Section.H2>
         <p>
-          Adhereing to our design principles, we launched without many features
-          users take for granted in a dating app, like blocking functionality
-          and a support portal. Instead, we opted to create a personal concierge
-          that would route messages directly to the team to take care of any
-          issue. Not only did it align with our app's goal of being more
-          personal to our audience, but it allowed us to cut the development
-          runway by three weeks.
+        This made for Academy, College, School, University, Courses Hub, LMS and Training Center. and we offer the best Online Learning experience ever.
+    
         </p>
         <p>
           The admin portal was the place for our team to chat directly with
-          users of the app, create new dates, and send push notifications. This
+          users of the site, create new dates, and send push notifications. This
           was 100% integrated into the application and gave us fine grained
           control over how we interacted with users.
         </p>
@@ -191,68 +171,7 @@ const CaseStudy = () => {
           zoomable
         />
       </Section>
-      <Section>
-        <Section.H2>Design Thinking</Section.H2>
-        <p>
-          For an internal app venture, this was our first experience tackling a
-          domain as intimate as online dating and wanted to get it right. We
-          enlisted the help of the{' '}
-          <a
-            href="http://www.sidoinnovation.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            SIDO Innovation
-          </a>{' '}
-          team to help us run design thinking and facilitation sessions with
-          friends and beta users. Through their proven techniques, we were able
-          to pull out crucial insights on what users wanted and to see if we
-          were on the mark with our hypothesis - something has to change in
-          online dating.
-        </p>
-        <Section.FancyTile>
-          Using proven design thinking techniques was crucial to the launch of
-          It's a Date.
-        </Section.FancyTile>
-        <p>
-          Each session lasted roughly three hours with drinks and apps provided.
-          What was most striking is how quickly people opened up about their
-          frustrations with using the app and shared their experiences with the
-          team.
-        </p>
-        <Section.ImageCollage
-          images={[
-            {
-              src: createOptimizedCloudinary(
-                'https://res.cloudinary.com/calderablog/image/upload/v1565241839/its-a-date-session-entrance_yvsr7y.jpg',
-                'w_1200,c_fit',
-              ),
-              alt: 'Its a Date User Testing Entrance',
-            },
-            {
-              src: createOptimizedCloudinary(
-                'https://res.cloudinary.com/calderablog/image/upload/v1565241836/its-a-date-testing-session_taxuow.jpg',
-                'w_1200,c_fit',
-              ),
-              alt: 'Its a Date session',
-            },
-            {
-              src: createOptimizedCloudinary(
-                'https://res.cloudinary.com/calderablog/image/upload/v1565241836/its-a-date-feature-grouping_han4px.jpg',
-                'w_1200,c_fit',
-              ),
-              alt: 'Its a Date feature grouping',
-            },
-            {
-              src: createOptimizedCloudinary(
-                'https://res.cloudinary.com/calderablog/image/upload/v1565241836/its-a-date-group-talking_zzirga.jpg',
-                'w_1200,c_fit',
-              ),
-              alt: 'Its a Date Group Talking',
-            },
-          ]}
-        />
-      </Section>
+      
       <Section smallPadding>
         <Section.H2>Testing</Section.H2>
         <p>For all apps, we implement three levels of testing:</p>
@@ -289,15 +208,10 @@ const CaseStudy = () => {
           a Date was ready for submission to incubators, accelerators, and other
           funding sources.
         </p>
-        <p>
-          Branding became a core focus as the specific voice of It's a Date
-          began to emerge across press materials and internal app copy. Writing
-          shifted from a single copywriter’s perspective to include internal
-          insights from developers and other technical staff.
-        </p>
+        
         <Section.ResponsiveVideo style={{ margin: '2rem 0' }}>
           <iframe
-            src="https://player.vimeo.com/video/311800634"
+            src="https://player.vimeo.com/video/428492331"
             title="launchVideo"
             width="853"
             height="505"
@@ -305,15 +219,6 @@ const CaseStudy = () => {
             allowFullScreen
           />
         </Section.ResponsiveVideo>
-
-        <p>
-          Our launched video amassed over 2,000 views in two days with an
-          average engagement rate of 40% (industry average was 2%). Social
-          ambassadors were recruited through our user testing sessions, which
-          aided us in our initial user base growth. Brand ambassadors naturally
-          fell in our target demographic due to our testing session selection
-          parameters.
-        </p>
       </Section>
     </Layout>
   )
