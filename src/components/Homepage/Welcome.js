@@ -55,7 +55,7 @@ const BreakoutSection = styled.div`
 
 export const Welcome = () => {
   return (
-    <BlobSection fluid blob={Blob}>
+    <BlobSection  blob={Blob}>
       <WelcomeTextContainer>
         <h2>
           We transform your business into digital world
