@@ -3,7 +3,8 @@ import { Nav } from '@caldera-digital/nav'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 import { media } from '@caldera-digital/theme'
-import Logo from '../assets/svgs/caldera-logo.svg'
+//import Logo from '../assets/svgs/caldera-logo.svg'
+import Logo from '../assets/images/logo.png'
 
 const LOGO_SPACING = '28px'
 const LogoContainer = styled(Link)`
@@ -113,8 +114,8 @@ export const NavBar = ({ location, theme }) => {
       hamburgerColor={theme.primaryColor}
       renderLeftSection={() => (
         <LogoContainer to="/">
-          <Logo />
-        </LogoContainer>
+        <img src={Logo} />
+      </LogoContainer>
       )}
     />
   )
